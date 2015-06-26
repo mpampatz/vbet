@@ -52,16 +52,5 @@ def make_urls(days_ahead=1):
         urls.append(url)
     return urls
 
-'''def debug1():
-    data = wget('c:/users/basil/documents/python/mlhtml_for_realmadr.html')
-    ml = OxybetMatchList()
-    ml.feed(data)
-    ml.manage_table()
-    
-    data = wget('c:/users/basil/documents/python/realmadr.html')
-    rawodds = OxybetOddsTable()
-    rawodds.feed(data)
-    
-    testmatch = Match(ml.table[222], rawodds.table)'''
 
 #TODO: def print_human_readable()
